@@ -11,7 +11,12 @@
   <action id="Diff.FocusOppositePane" />
   <action id="Diff.NextChange" />
   <action id="Diff.PrevChange" />
+  <action id="EditorScrollToCenter" />
   <action id="EditorSelectWord" />
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="ctrl f12" />
+    <keyboard-shortcut first-keystroke="ctrl m" />
+  </action>
   <action id="Forward">
     <keyboard-shortcut first-keystroke="ctrl alt right" />
     <mouse-shortcut keystroke="button5" />
@@ -30,4 +35,5 @@
   <action id="SmartSelect" />
   <action id="Switcher" />
   <action id="UsageFiltering.WriteAccess" />
+  <action id="Vcs.ShowMessageHistory" />
 </keymap>
