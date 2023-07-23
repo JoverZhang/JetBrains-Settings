@@ -4,6 +4,8 @@
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="shift alt left" />
   </action>
+  <action id="ChangesView.ToggleCommitUi" />
+  <action id="CheckinProject" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="ctrl w" />
@@ -12,7 +14,9 @@
   <action id="Diff.NextChange" />
   <action id="Diff.PrevChange" />
   <action id="EditorScrollToCenter" />
-  <action id="EditorSelectWord" />
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl w" />
+  </action>
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="ctrl f12" />
     <keyboard-shortcut first-keystroke="ctrl m" />
@@ -21,6 +25,10 @@
     <keyboard-shortcut first-keystroke="ctrl alt right" />
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="shift alt right" />
+  </action>
+  <action id="Git.Commit.Stage" />
+  <action id="Images.Thumbnails.Hide">
+    <keyboard-shortcut first-keystroke="ctrl f4" />
   </action>
   <action id="NextEditorTab" />
   <action id="NextTab">
