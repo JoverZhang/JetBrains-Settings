@@ -1,0 +1,9 @@
+<templateSet group="Dart">
+  <template name="logv" value="log(&quot;$EXPR_COPY$ = ${$EXPR$}&quot;);" description="develop log with variable" toReformat="true" toShortenFQNames="true">
+    <variable name="EXPR" expression="variableOfType(&quot;&quot;)" defaultValue="&quot;expr&quot;" alwaysStopAt="true" />
+    <variable name="EXPR_COPY" expression="escapeString(EXPR)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="DART_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
